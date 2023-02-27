@@ -1,7 +1,45 @@
+<p align="center">
+  <img src="https://miro.medium.com/max/1400/1*m2gDBT_nc-iE7R4AM3sHBQ.jpeg" height="450"/>
+
+</p>
+
+
 # Please Chose a Language :: Lütfen bir Dil Seçin
-* [English](#)
-* [Türkçe])(#Evrişimsel-Sinir-Ağlarının-Temelleri)
+* [English](#basic-understannding-of-convolutional-neural-networks)
+* [Türkçe](#evrişimsel-sinir-ağlarının-temelleri)
+
+
 ***
+# Basic Understannding of Convolutional Neural Networks
+
+Hello everyone,
+If you want to deal with advanced computer vision, you will surely come across convolutional neural networks, or CNNs, somewhere along the way. Today, this CNN technology There is a lot of software that uses it. Different versions of Yolo and RCNN software can be examples. Although you don't need to have any knowledge of CNNs to use them at a certain level, you need to have a good understanding of the events behind the CNN structure in order to use these neural networks effectively.
+
+In this repo, I will build a convolutional neural network (CNN) example from scratch with the help of the OpenCV library. In the process, you will be able to observe many terms related to neural networks and the mathematical operations that take place behind them at the most basic level. To get the most out of these notes:
+- Know Python programming language
+- Know the basics of the OpenCV library
+- To master basic mathematical operations with matrices
+
+## Folder Structure
+
+```
+.
+├── Notebooks (EN)                                      # English Notes                                    
+│   ├── (not avaliable)            
+│   ├── (not avaliable)          
+│   ├── (not avaliable)               
+│   ├── (not avaliable)                  
+│   ├── (not avaliable)                
+│   ├── (not avaliable)               
+│   ├── (not avaliable) 
+│   ├── (not avaliable) 
+│   └── (not avaliable) 
+├── Notebooks (TR)                                       # Turkish Notes
+├── dataset                                              # Dataset storing the images to be used
+└── README.md
+
+```
+---
 
 # Evrişimsel Sinir Ağlarının Temelleri
 
@@ -9,7 +47,7 @@ Herkese merhaba,
 Eğer ileri seviye bilgisayar görüsü ile uğraşmak istiyorsanız yolunuz mutlaka bir yerede evrişimsel sinir ağları yani CNN'ler ile karşılaşacaktır. Günümüzde bu CNN teknolojisini
 kullanan bir çok yazılım var. Yolo'nun farklı versionları ve RCNN yazılımıları örnek olabilir. Her ne kadar bunları belirli bir düzeyde kullanmak için CNN'ler ile ilgili herhangi bir bilgiye sahip olmanız gerekmese bile bu nöral ağları efektif kullanmak için CNN yapısının arkasındaki dönen olaylara hakim olmanız gerekmektedir.
 
-Bu repmda OpenCV kütüphanesi yardımı ile sıfırdan bir evrişimsel sinir ağı (CNN) örneği oluşturacağım bu süreçte nöral ağlar ile ilgli bir çok terimi ve arkada gerçekleşen matematiksel işlemleri en temel düzeyde gözlemleyebileceksiniz. Bu notlardan en üst düzey verimi alabilmek için:
+Bu repomda OpenCV kütüphanesi yardımı ile sıfırdan bir evrişimsel sinir ağı (CNN) örneği oluşturacağım bu süreçte nöral ağlar ile ilgli bir çok terimi ve arkada gerçekleşen matematiksel işlemleri en temel düzeyde gözlemleyebileceksiniz. Bu notlardan en üst düzey verimi alabilmek için:
 - Python programlama dilini bilmek
 - OpenCV kütüphanesinin temellerni bilmek
 - Matrisler ile temel matematiksel işlemlere hakim olmak
@@ -38,7 +76,7 @@ gerekmektedir. Başlamadan önce nöral ağlar ile ilgili yazdığım yazıyı o
 
 ## Kazanımlar
 ### 1. Basit Resim sınıflandırıcı
-Bilgisayarlarlar için resimlerin nasıl göründüğünü, resimler üzerinde nasıl işlem yapabildiklerini ve resimleri nasıl sınıflandırdığını anlamaya çalışacağız. Bunun için de Python programlama dilini kullanarak basit bir sınıflandırıcı oluşturacağız.
+*Bilgisayarlarlar için resimlerin nasıl göründüğünü, resimler üzerinde nasıl işlem yapabildiklerini ve resimleri nasıl sınıflandırdığını anlamaya çalışacağız. Bunun için de Python programlama dilini kullanarak basit bir sınıflandırıcı oluşturacağız.*
 
 ### 2. Otomatik Resim Sınıflandırıcı
 İlk bölümde oluşturduğumuz sınıflandırcı kodunun üzerine eklemeler yaparak programın sınıflandırma için uygun filtreyi kendi kendine oluşturmasını sağlayacağız.
