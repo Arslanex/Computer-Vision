@@ -1,7 +1,6 @@
 <h3 align="center"> Please Chose a Language </h3>
 
-* [English]()
-* [Türkçe](#Evrişimsel-Sinir-Ağlarının-Temelleri)
+<button>asd</button>
 
 ***
 
