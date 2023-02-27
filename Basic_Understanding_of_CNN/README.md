@@ -1,7 +1,6 @@
-<h3 align="center"> Please Chose a Language </h3>
-
-<button>asd</button>
-
+# Please Chose a Language :: Lütfen bir Dil Seçin
+* [English](#)
+* [Türkçe])(#Evrişimsel-Sinir-Ağlarının-Temelleri)
 ***
 
 # Evrişimsel Sinir Ağlarının Temelleri
