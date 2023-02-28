@@ -1,15 +1,14 @@
+<div align="center">
+ 
+[<kbd> <br> ENGLISH <br> </kbd>][KBD1]
+[<kbd> <br> TÜRKÇE <br> </kbd>][KBD2]
+
+</div>
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/44752389/221812657-710eb794-e838-4eca-9cdd-378873e0bcc2.png" width="100%"/>
 </p>
-
-
-# Please Chose a Language :: Lütfen bir Dil Seçin
-* [English](#basic-understannding-of-convolutional-neural-networks)
-* [Türkçe](#evrişimsel-sinir-ağlarının-temelleri)
-
-[<kbd> <br> KeyBinding Button <br> </kbd>][KBD1]
-[<kbd> <br> KeyBinding Button <br> </kbd>][KBD2]
-
+ 
 [KBD1]: #basic-understannding-of-convolutional-neural-networks
 [KBD2]: #evrişimsel-sinir-ağlarının-temelleri
 
