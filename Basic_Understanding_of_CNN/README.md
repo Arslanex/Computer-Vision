@@ -79,10 +79,12 @@ gerekmektedir. Başlamadan önce nöral ağlar ile ilgili yazdığım yazıyı o
 │   ├── 2. Otomatik Resim Sınıflandırıcı.ipynb          # Eğitim notu
 │   ├── 3. Basit Bir CNN Oluşturalım.ipynb              # Eğitim notu
 │   ├── 3.1 Nöral Ağımızı Deneyelim.py                  # Birleştirilmiş python dosyası
-│   ├── 4. Ağırlıkları Ayarlayalım.ipynb                # Eğitim Notu
-│   ├── 5. Etiketler ve Verisetleri.ipynb               # Eğitim nout
-│   ├── (yüklenmedi)
-│   ├── (yüklenmedi)
+│   ├── 4. Ağırlıkları Ayarlayalım.ipynb                # Eğitim notu
+│   ├── 5. Etiketler ve Verisetleri.ipynb               # Eğitim notu
+│   ├── 6. Fonksiyonlarımızı Oluşturalım.ipynb          # Eğitim notu
+│   ├── 6.1 Nöral Ağımızı Deneyelim.py                  # Birleştirilmiş python dosyası
+│   ├── 7. İlk Katmanımızı Oluşturalım.ipynb            # Eğitim notu
+│   ├── 8. Nöral Ağı Test Edelim.ipynb                  # Eğitim notu
 │   └── (yüklenmedi)
 ├── dataset                                              # Kullanılacak eğitim ve test görselleri
 └── README.md
@@ -107,6 +109,18 @@ Ağırlıkların yeniden ayarlanmasının arkasındaki matematiğe bakacak ve ke
 
 ### 5. Etiketler ve Verisetleri
 Geçtiğimiz bölümde işlenen ağırlıkları yeniden ayarlama işlemini her iki resime göre ayarlanacak şekilde güncelleyecek ve bir eğitim döngüsü oluşturacağız. Böylece istediğimiz tur sayısı kadar eğitim işlemi gerçkeleştirebileceğiz.
+
+### 6. Fonksiyonlarımızı Oluşturalım
+Ağırlıklarımızı ayarlamak için yaptığımız adımları fonksiyon haline getireceğiz. Forward ve Back propagation olarak iki fonksiyonumuz olacak.
+
+### 6.1 Nöral Ağımızı Deneyelim
+Fonskyionlarımızı deneyebileceğimiz bir python dosyası
+
+### 7. İlk Katmanımızı Oluşturalım
+Oluşturduğumuz fonskiyonları bir sınıf çatısı altında birleştirerek daha modern bir hale getireceğiz ve ağırlıklarımızı eğiteceğizz.
+
+### 8. Nöral Ağı Test Edelim
+Nöral ağımızın performansını ver verimliliğini ölçeceğiz. eğittiğimiz ağırlıklar ile farklı resimleri ne kadar doğru sınıflandırabileceğimizi kontorl edeceğiz. bunun için veri setindeki test verilerini kullanacağız.
 
 ***
 <h3 align="center"> Enes ARSLAN </h3>
