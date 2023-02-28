@@ -25,6 +25,6 @@ resim arasındaki farkı anlayamayacaktır. Sadece script
 olarak yazılma şekline göstermek istedim.
 """
 
-print(neural_network("Data/Train/Vertical.png"))
-print(neural_network("Data/Train/Horizontal.png"))
+print(neural_network("../dataset/train/vertical.png"))
+print(neural_network("../dataset/train/horizontal.png"))
 
