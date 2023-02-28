@@ -93,34 +93,35 @@ gerekmektedir. Başlamadan önce nöral ağlar ile ilgili yazdığım yazıyı o
 
 ## Kazanımlar
 ### 1. Basit Resim sınıflandırıcı
-*Bilgisayarlarlar için resimlerin nasıl göründüğünü, resimler üzerinde nasıl işlem yapabildiklerini ve resimleri nasıl sınıflandırdığını anlamaya çalışacağız. Bunun için de Python programlama dilini kullanarak basit bir sınıflandırıcı oluşturacağız.*
+> Bilgisayarlarlar için resimlerin nasıl göründüğünü, resimler üzerinde nasıl işlem yapabildiklerini ve resimleri nasıl sınıflandırdığını anlamaya çalışacağız. Bunun için de Python programlama dilini kullanarak basit bir sınıflandırıcı oluşturacağız.
 
 ### 2. Otomatik Resim Sınıflandırıcı
-İlk bölümde oluşturduğumuz sınıflandırcı kodunun üzerine eklemeler yaparak programın sınıflandırma için uygun filtreyi kendi kendine oluşturmasını sağlayacağız.
+> İlk bölümde oluşturduğumuz sınıflandırcı kodunun üzerine eklemeler yaparak programın sınıflandırma için uygun filtreyi kendi kendine oluşturmasını sağlayacağız.
 
 ### 3. Basit Bir CNN Oluşturalım
-Basit bir CNN oluşturacağız. Bu sırada konvolüsyon, aktivasyon fonksiyonu, ağırlık (weights) ve eşik değer kavramlarına bakacağız. 
+> Basit bir CNN oluşturacağız. Bu sırada konvolüsyon, aktivasyon fonksiyonu, ağırlık (weights) ve eşik değer kavramlarına bakacağız. 
 
 ### 3.1 Nöral Ağımızı Deneyelim
-Bir önceki bölümde kullanılan  kodların derlenmiş ve fonksiyon haline getirilmiş halidir. Burada bulunan CNN henüz doğru tahmin yapamamaktadır.
+> Bir önceki bölümde kullanılan  kodların derlenmiş ve fonksiyon haline getirilmiş halidir. Burada bulunan CNN henüz doğru tahmin yapamamaktadır.
 
 ### 4. Ağırlıkları Ayarlayalım
-Ağırlıkların yeniden ayarlanmasının arkasındaki matematiğe bakacak ve kendi ağırlıklarımızı dikey çizgi içeren resime göre yeniden ayarlayacağız.
+> Ağırlıkların yeniden ayarlanmasının arkasındaki matematiğe bakacak ve kendi ağırlıklarımızı dikey çizgi içeren resime göre yeniden ayarlayacağız.
 
 ### 5. Etiketler ve Verisetleri
-Geçtiğimiz bölümde işlenen ağırlıkları yeniden ayarlama işlemini her iki resime göre ayarlanacak şekilde güncelleyecek ve bir eğitim döngüsü oluşturacağız. Böylece istediğimiz tur sayısı kadar eğitim işlemi gerçkeleştirebileceğiz.
+> Geçtiğimiz bölümde işlenen ağırlıkları yeniden ayarlama işlemini her iki resime göre ayarlanacak şekilde güncelleyecek ve bir eğitim döngüsü oluşturacağız. Böylece istediğimiz tur sayısı kadar eğitim işlemi gerçkeleştirebileceğiz.
 
 ### 6. Fonksiyonlarımızı Oluşturalım
-Ağırlıklarımızı ayarlamak için yaptığımız adımları fonksiyon haline getireceğiz. Forward ve Back propagation olarak iki fonksiyonumuz olacak.
+> Ağırlıklarımızı ayarlamak için yaptığımız adımları fonksiyon haline getireceğiz. Forward ve Back propagation olarak iki fonksiyonumuz olacak.
 
 ### 6.1 Nöral Ağımızı Deneyelim
-Fonskyionlarımızı deneyebileceğimiz bir python dosyası
+> Fonskyionlarımızı deneyebileceğimiz bir python dosyası
 
 ### 7. İlk Katmanımızı Oluşturalım
-Oluşturduğumuz fonskiyonları bir sınıf çatısı altında birleştirerek daha modern bir hale getireceğiz ve ağırlıklarımızı eğiteceğizz.
+> Oluşturduğumuz fonskiyonları bir sınıf çatısı altında birleştirerek daha modern bir hale getireceğiz ve ağırlıklarımızı eğiteceğizz.
 
 ### 8. Nöral Ağı Test Edelim
-Nöral ağımızın performansını ver verimliliğini ölçeceğiz. eğittiğimiz ağırlıklar ile farklı resimleri ne kadar doğru sınıflandırabileceğimizi kontorl edeceğiz. bunun için veri setindeki test verilerini kullanacağız.
+> Nöral ağımızın performansını ver verimliliğini ölçeceğiz. eğittiğimiz ağırlıklar ile farklı resimleri ne kadar doğru sınıflandırabileceğimizi kontorl edeceğiz. bunun için veri setindeki test verilerini kullanacağız.
+
 
 ***
 <h3 align="center"> Enes ARSLAN </h3>
