@@ -54,6 +54,38 @@ In this repo, I will build a convolutional neural network (CNN) example from scr
 └── README.md
 
 ```
+
+## Achievements
+#### 1. Simple Image classifier
+> In this notebook we will look at how computers recognize images, how mathematical operations can be performed on images and how images can be classified. Then we will code a simple classifier to distinguish between images containing vertical and horizontal lines.
+
+### 2. Automatic Image Classifier
+> In this notebook, we will make the filter of the classifier created in the previous notes automatically adjustable with the help of the Numpy library. The computer will try different filters until it finds a suitable match.
+
+### 3. Let's Create a Simple CNN
+> In this notebook we will take a brief look at convolutional neural networks and start building our own network a little bit by little. Towards this goal we will explore the definition of convolution, activation function, weights and thresholds.
+
+### 3.1 Let's Experiment with our Neural Network
+> In this code file, you can observe the use of the CNN structure we created in the previous notes as a script by moving it to the pyhon code file. Note: Our network is not yet able to distinguish images, so if you run it, it will not be able to classify the images correctly.
+
+### 4. Let's set the weights
+> In this notebook we will look at the math behind readjusting the weights. We will then put this math into lines by writing the code to readjust our weights according to the image with the vertical line. 
+
+### 5. Labels and Datatags
+> In this notebook we will perform the weight adjustment we did in the previous section using both images. At the same time, we will learn the term epoch and write a code that will train as many rounds as we want with the help of a loop.
+
+### 6. Create our functions
+> In this notebook we will learn the terms forward propagation and back propagation, and we will put the work we did in the last notebook into functions accordingly.
+
+## 6.1 Let's Experiment with our Neural Network
+> This script is a test script where we can try the functions created in the previous notes.
+
+### 7. Create our first layer
+> In this notebook we will look at the term layer and create a layer for our network by combining the functions we have created into a class. We will then use this class to train our weights.
+
+### 8. Test the Neural Network
+> In this notebook we will create a test case to measure the accuracy of the trained weights. We will discuss what to look for when training a model and the problems that can occur if you overtrain the weights.
+
 ---
 
 # Evrişimsel Sinir Ağlarının Temelleri
@@ -93,35 +125,34 @@ gerekmektedir. Başlamadan önce nöral ağlar ile ilgili yazdığım yazıyı o
 
 ## Kazanımlar
 ### 1. Basit Resim sınıflandırıcı
-> Bilgisayarlarlar için resimlerin nasıl göründüğünü, resimler üzerinde nasıl işlem yapabildiklerini ve resimleri nasıl sınıflandırdığını anlamaya çalışacağız. Bunun için de Python programlama dilini kullanarak basit bir sınıflandırıcı oluşturacağız.
+> Bu not defterinde bilgisayarların resimleri nasıl algıladığına, resimler üzerinde nasıl matematiksel işlem yapılabildiğine ve resimleri nasıl sınıflandırılabilceğine bakılacaktır. Sonrasında dikey ve yatay çizgiyi içeren resimleri birbirinden ayıracak basit bir sınıflandırıcı ile konu koda dökülecektir.
 
 ### 2. Otomatik Resim Sınıflandırıcı
-> İlk bölümde oluşturduğumuz sınıflandırcı kodunun üzerine eklemeler yaparak programın sınıflandırma için uygun filtreyi kendi kendine oluşturmasını sağlayacağız.
+> Bu not defterinde bir önceki notlarda oluşturulan sınıflandırcının filtresini Numpy kütüphanesi yardımı ile otomatik ayarlanabilir hale getireceğiz. Bilgisayar uygun bir eşleşme bulana kadar farklı farklı filtreler deneyerek sonuca ulaşacak.
 
 ### 3. Basit Bir CNN Oluşturalım
-> Basit bir CNN oluşturacağız. Bu sırada konvolüsyon, aktivasyon fonksiyonu, ağırlık (weights) ve eşik değer kavramlarına bakacağız. 
+> Bu not defterinde evrişimsel sinir ağlarına ufak bir bakış yapacağız ve kendi ağımızı ufak ufak oluşturmaya başlayacağız. Bu hedef doğrultusunda konvolüsyon tanımını, aktivasyon fonksiyonu, ağırlık (weights) ve eşik değer kavramlarını iredeleyeceğiz.
 
 ### 3.1 Nöral Ağımızı Deneyelim
-> Bir önceki bölümde kullanılan  kodların derlenmiş ve fonksiyon haline getirilmiş halidir. Burada bulunan CNN henüz doğru tahmin yapamamaktadır.
+> Bu kod dosyasında bir önceki notlarda oluşturduğumuz CNN yapısını pyhon kod dosyasına taşıyarak script olarak kullanımını gözlemleyebilirsiniz. Not : Ağımız henüz resimleri ayırt edemiyor o yüzden çalıştırmanız durumunda reimleri doğru sınıflandıramayacaktır.
 
 ### 4. Ağırlıkları Ayarlayalım
-> Ağırlıkların yeniden ayarlanmasının arkasındaki matematiğe bakacak ve kendi ağırlıklarımızı dikey çizgi içeren resime göre yeniden ayarlayacağız.
+> Bu not defterinde ağırlıkları yeniden ayarlanmasının arkasındaiki matematiğe bakacağız. Sonrasında bu matematiği ağırlılarımızı dikey çizgi içeren resime göre yeniden ayarlayacak kodları yazarak satırlara dökeceğiz. 
 
 ### 5. Etiketler ve Verisetleri
-> Geçtiğimiz bölümde işlenen ağırlıkları yeniden ayarlama işlemini her iki resime göre ayarlanacak şekilde güncelleyecek ve bir eğitim döngüsü oluşturacağız. Böylece istediğimiz tur sayısı kadar eğitim işlemi gerçkeleştirebileceğiz.
+> Bu not defterinde bir önceki bölümde yaptığımız ağırlık ayarlama işlemini her iki resimi de kullanarak gerçekleştireceğiz. Aynı zamanda epoch terimini öğrenecek ve bir döngü yardımıyla istediğimiz tur kadar eğitim yapacak bir kod yazacağız.
 
 ### 6. Fonksiyonlarımızı Oluşturalım
-> Ağırlıklarımızı ayarlamak için yaptığımız adımları fonksiyon haline getireceğiz. Forward ve Back propagation olarak iki fonksiyonumuz olacak.
+> Bu not defterinde forward porpagation ve back propagation terimlrini öğrenecek, geçtiğimiz not defterinde yaptığımız işlerleri uygun şekilde fonksiyonlara yerleştireceğiz.
 
 ### 6.1 Nöral Ağımızı Deneyelim
-> Fonskyionlarımızı deneyebileceğimiz bir python dosyası
+> Bu kod dosyası bir önceki notlarda oluşturulan fonksiyonları deneyebileceğimiz bir deneme scripti'dir.
 
 ### 7. İlk Katmanımızı Oluşturalım
-> Oluşturduğumuz fonskiyonları bir sınıf çatısı altında birleştirerek daha modern bir hale getireceğiz ve ağırlıklarımızı eğiteceğizz.
+> Bu not defterinde katman terimine bakacağız ve oluştuduğumuz fonksiyonları bir sınıf çatısı altında birleştirerek ağımız için bir katman oluşturacağız. Sonrasında bu sınıfı kullanarak ağırıklarımızı eğiteceğiz.
 
 ### 8. Nöral Ağı Test Edelim
-> Nöral ağımızın performansını ver verimliliğini ölçeceğiz. eğittiğimiz ağırlıklar ile farklı resimleri ne kadar doğru sınıflandırabileceğimizi kontorl edeceğiz. bunun için veri setindeki test verilerini kullanacağız.
-
+> Bu not defterinde eğitilen ağırlıkların doğruluğunu ölçeceğimiz test senaryosunu oluşturacağız. Bir modeli eğitirken nelere dikkat edilmesi gerektiğini, ağırlıkları fazla eğitirsen oluşabilcek sorunları konuşacağız.
 
 ***
 <h3 align="center"> Enes ARSLAN </h3>
