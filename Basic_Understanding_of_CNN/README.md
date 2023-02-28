@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="https://miro.medium.com/max/1400/1*m2gDBT_nc-iE7R4AM3sHBQ.jpeg" height="450"/>
-
+  <img src="https://user-images.githubusercontent.com/44752389/221812657-710eb794-e838-4eca-9cdd-378873e0bcc2.png" width="100%"/>
 </p>
 
 
@@ -8,6 +7,9 @@
 * [English](#basic-understannding-of-convolutional-neural-networks)
 * [Türkçe](#evrişimsel-sinir-ağlarının-temelleri)
 
+[<kbd> <br> KeyBinding Button <br> </kbd>][KBD]
+
+[KBD]: #basic-understannding-of-convolutional-neural-networks
 
 ***
 # Basic Understannding of Convolutional Neural Networks
