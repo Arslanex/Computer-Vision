@@ -7,9 +7,11 @@
 * [English](#basic-understannding-of-convolutional-neural-networks)
 * [Türkçe](#evrişimsel-sinir-ağlarının-temelleri)
 
-[<kbd> <br> KeyBinding Button <br> </kbd>][KBD]
+[<kbd> <br> KeyBinding Button <br> </kbd>][KBD1]
+[<kbd> <br> KeyBinding Button <br> </kbd>][KBD2]
 
-[KBD]: #basic-understannding-of-convolutional-neural-networks
+[KBD1]: #basic-understannding-of-convolutional-neural-networks
+[KBD2]: #evrişimsel-sinir-ağlarının-temelleri
 
 ***
 # Basic Understannding of Convolutional Neural Networks
