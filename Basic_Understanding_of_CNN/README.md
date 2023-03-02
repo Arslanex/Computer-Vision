@@ -105,20 +105,20 @@ gerekmektedir. Başlamadan önce nöral ağlar ile ilgili yazdığım yazıyı o
 
 ```
 .
-├── Notebooks (EN)                                      # İngilizce Notlar
-├── Notebooks (TR)                                      # Türkçe Notlar
-│   ├── 1. Basit Resim sınıflandırıcı.ipynb             # Eğitim notu
-│   ├── 2. Otomatik Resim Sınıflandırıcı.ipynb          # Eğitim notu
-│   ├── 3. Basit Bir CNN Oluşturalım.ipynb              # Eğitim notu
-│   ├── 3.1 Nöral Ağımızı Deneyelim.py                  # Birleştirilmiş python dosyası
-│   ├── 4. Ağırlıkları Ayarlayalım.ipynb                # Eğitim notu
-│   ├── 5. Etiketler ve Verisetleri.ipynb               # Eğitim notu
-│   ├── 6. Fonksiyonlarımızı Oluşturalım.ipynb          # Eğitim notu
-│   ├── 6.1 Nöral Ağımızı Deneyelim.py                  # Birleştirilmiş python dosyası
-│   ├── 7. İlk Katmanımızı Oluşturalım.ipynb            # Eğitim notu
-│   ├── 8. Nöral Ağı Test Edelim.ipynb                  # Eğitim notu
+├── Notebooks (EN)                                      
+├── Notebooks (TR)                                      
+│   ├── 1. Basit Resim sınıflandırıcı.ipynb             
+│   ├── 2. Otomatik Resim Sınıflandırıcı.ipynb          
+│   ├── 3. Basit Bir CNN Oluşturalım.ipynb              
+│   ├── 3.1 Nöral Ağımızı Deneyelim.py                  
+│   ├── 4. Ağırlıkları Ayarlayalım.ipynb                
+│   ├── 5. Etiketler ve Verisetleri.ipynb               
+│   ├── 6. Fonksiyonlarımızı Oluşturalım.ipynb          
+│   ├── 6.1 Nöral Ağımızı Deneyelim.py                  
+│   ├── 7. İlk Katmanımızı Oluşturalım.ipynb            
+│   ├── 8. Nöral Ağı Test Edelim.ipynb                  
 │   └── (yüklenmedi)
-├── dataset                                              # Kullanılacak eğitim ve test görselleri
+├── dataset                                              
 └── README.md
 
 ```
