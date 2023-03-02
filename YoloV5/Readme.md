@@ -6,34 +6,44 @@
 </div>
 
 [KBD1]: #basic-understannding-of-convolutional-neural-networks
-[KBD2]: #evrişimsel-sinir-ağlarının-temelleri
+[KBD2]: #yolov5-tr
 
 <p align="center">
-  <img src="https://miro.medium.com/max/1400/1*5b45PD3TTlxN221xKbhMsw.png" width="100%"/>
+  <img src="https://user-images.githubusercontent.com/44752389/222455765-761f3d0e-4717-4bc9-883e-83d1a9b91d43.png" width="100%"/>
 </p>
 
 ***
 
-# YOLOV5 - TR
+# YOLOV5 TR
 Nesne Tespiti(Object Detection); fotoğraflardaki, videolardaki ve gerçek zamanlı görüntülerdeki nesneleri tespit etmeye odaklanan bilgisayarlı görü ve görüntü işleme ile ilgili bir bilgisayar teknolojisidir. Faster R-CNN, Single Shot Detector (SSD) ve YOLO(You Only Look Once) gibi bir çok nesne tespiti algoritmaları günümüzde kullanılmaktadır. Bu repoda bu algoritalar arasında YoloV5 detaylı olarak incelenecek, tespit ve eğitim algoritmalarının çalışma mantığına bakılacaktır.  
 
 Başlamadan önce YOLO algoritmalarının tarihçesinden bahsetmek istiyorum, YOLO başlangıçta, sınırlayıcı kutu(bounding box) tahmini ve nesne sınıflandırmasını tek bir uçtan uca türevlenebilir ağda birleştiren ilk nesne algılama modeli olarak tanıtıldı. Yani görüntülerdeki veya videolardaki nesneleri ve bu nesnelerin koordinatlarını aynı anda tespit eder. Şu ana kadar yayınlanan YOLO versiyonları Darknet framework üzerinde çalışmaktaydı ancak; YOLOv5 PyTorch framework üzerinde çalışan ilk YOLO modeli oldu. YOLOv5, Glenn Jocher(Founder & CEO of Utralytics) tarafından yayınlandı.
 
 ## Repo Yapsı
-### 1. TEST
-YoloV5 için yaygın olarak kullanılan tespit algoritması, main_class.py, sınıf yapısıda olduğu için ilk başta anlaması 
-daha doğrusu satır satır incelemesi zor olacağı için bu algoritmayı sınıf yapısından çıkartarak resimler için ve videolar
-için çalışır hale getiridim. Bu sayede kodu satır satır takip ederek hangi satırın ne yaptığını daha kolay anlayabildim.
-Bu kısımda kabaca tespit algoritmasının çoğunun ne işe yaradığını anlayabilirisiniz. Kendi notlarım klasördeki pdf'nin
-içerisinde var.
+Bu repo kendimin YoloV5 tespiit algoritmasını anlamak  için kendimce yaptığım testleri ve aldığım notları yaynladığım repodur. Umarım sizlere faydası dokunur. Aşağıda hangi testleri ne amaç ile yazdığımı ve bunun için neler yazdığımı detaylı olarak açıkladım.
 
-### 2. TEST
-Resimler için tespit yapan algoritmayı jupyter notebook formatına taşıdıktan sonra satır satır çalıştırarak daha 
-detaylı bir incelem yapabildim. Burada "results" değişkeninin iç yapısı dışında her şey yerine oturdu. Results yapısını
-daha iyi anlamak için internetten ufak bir destek aldım, Pytorch'un resmi sitesinde bulunan bir çok method'u test ederken
-results değişkenini de daha detaylı inceledim. YoloV5 ile kullanılabilecek ekstra methodlarda pdf'de blunabilir.
+### Nesne Tespiti
 
-### 3. TEST
-Artık algoritmanın nasıl çalıştığını çözdüğümüze göre artık algoritmaya kendi eklemelerimizi yapabiliriz. Bu kapsamda 
-ilk olarak tespit edilen objelerin merkez noktalarını döndüren bir fonksiyon ekledim. Sonrasında ise bu merkez noktanın 
-ekranın neresinde olduğunu (sağ-sol-orta-yukarı-aşağı) ve etiketinin ne olduğunu döndüren yeni fonksiyonlar ekledim.
+#### Test 1
+YoloV5 ile çalışmaya ilk başladığımda bulduğum bütün rehber ve projeler bir sınıf yapısı halinde bulunan bir algoritma kullanıyordu. Bende bu algoritmayı daha iyi anlamak için sınıf formunda çıkardım ve video ve resim için tespit yapan iki farklı kod dosyası haline getirdim. Bu formuyla tespit algoritmasını satır satır inceleyebildim ve hangi satırın ne amaçla çalıştığını rahatça anlayabildim.  Bahsettiğim sınıf formatındaki tespit algoritmasını main_class.py dosyasının içerisinde bulabilirsiniz. 
+
+#### Test 2
+Resimler üzerinde tespit işlemi için oluşturduğum algoritmayı Jupyter Notebook formuna çevirdim ve satır datır üzerinde çalışarak algoritmanın çalışma mantığını daha iyi anladım. Asıl amacım ise sonuçları içinde tutan **results** değişkeninin yapısını öğrenmekti. Bu değişkenin iç yapısısnı daha iyi anlamak için resmi Pythorch dökümanını kullandım ve orada bulunan bir çok methodu deneyerek results değişkenini parçalara ayırdım. Elde ettiğim sonuçları klasörde bulabilirsiniz. Ayrıca kullandığım dökümanda bulunann methodlarıda göseterdiğim ikinci bir not defteri de bulunuyor.
+
+#### Test 3
+Tespit algoritmasının yapısını ve çalışma mantığını anladıktan sonra artık algoritmaya kendi eklemelerimi yapabilirim. Kendimi test etmek için tespit edilen cisimin ekaranın hangi tarafında tespit edildiğini döndürecek şekilde algoritmayı güncelledim. Artık algoritma tespit ettiği cisimlerin merkez noktalarının bulunduğu piksellerin sağ, sol, merkez, aşağı veya yukarı bölgelerden hangisinde olduğunu döndüren bir fonksiyona sahip.
+
+### Model Eğitimi
+**(not avaliable)**
+
+
+***
+<h3 align="center"> Enes ARSLAN </h3>
+<p align="center">
+<a href="https://www.instagram.com/_enes.arslan_/?next=%2F">
+<img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white"/>
+<a href="https://www.linkedin.com/in/enes-arslan-/">
+<img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<a href="https://github.com/Arslanex">
+<img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"/ >
+</p>
