@@ -5,12 +5,12 @@
 
 </div>
 
+***
+
 [KBD1]: #basic-understannding-of-convolutional-neural-networks
 [KBD2]: #evrişimsel-sinir-ağlarının-temelleri
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/44752389/221812657-710eb794-e838-4eca-9cdd-378873e0bcc2.png" width="100%"/>
-</p>
+![1](https://user-images.githubusercontent.com/44752389/222966718-378b2f10-9ec8-41e7-8098-9145b370a2c4.gif)
 
 <div align="center">
   <img align="left" src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA"/>
@@ -25,6 +25,7 @@
 </div>
 
 ***
+
 # Basic Understannding of Convolutional Neural Networks
 
 Hello everyone,
