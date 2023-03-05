@@ -10,7 +10,7 @@
 [KBD1]: #basic-understannding-of-convolutional-neural-networks
 [KBD2]: #evrişimsel-sinir-ağlarının-temelleri
 
-![1](https://user-images.githubusercontent.com/44752389/222966718-378b2f10-9ec8-41e7-8098-9145b370a2c4.gif)
+![Computer vısıon Kopyası](https://user-images.githubusercontent.com/44752389/222967264-c171f52d-cf6c-4669-a5c9-894d1f260c81.gif)
 
 <div align="center">
   <img align="left" src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA"/>
