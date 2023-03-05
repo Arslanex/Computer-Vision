@@ -12,8 +12,8 @@ This repo contains my work on different image processing libraries and computer 
 ## Table of contentes
 
 * [Create Your First CNN with OpenCV](https://github.com/Arslanex/Computer-Vision/tree/main/Basic_Understanding_of_CNN)
-* [work with OpenCV](https://github.com/Arslanex/Computer-Vision/tree/main/OpenCV)
-* [work with Mediapipe](https://github.com/Arslanex/Computer-Vision/tree/main/Mask%20RCNN)
+* [Work With OpenCV](https://github.com/Arslanex/Computer-Vision/tree/main/OpenCV)
+* [Work With Mediapipe](https://github.com/Arslanex/Computer-Vision/tree/main/Mask%20RCNN)
 * [Mask RCNN](https://github.com/Arslanex/Computer-Vision/tree/main/Mask%20RCNN)
 * [YoloV3](https://github.com/Arslanex/Computer-Vision/tree/main/YoloV3)
 * [YoloV5](https://github.com/Arslanex/Computer-Vision/tree/main/YoloV5)
