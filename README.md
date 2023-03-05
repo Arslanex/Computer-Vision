@@ -16,7 +16,7 @@ This repo contains my work on different image processing libraries and computer 
 * [work with Mediapipe](https://github.com/Arslanex/Computer-Vision/tree/main/Mask%20RCNN)
 * [Mask RCNN](https://github.com/Arslanex/Computer-Vision/tree/main/Mask%20RCNN)
 * [YoloV3](https://github.com/Arslanex/Computer-Vision/tree/main/YoloV3)
-* [YoloV5](https://github.com/Arslanex/Computer-Vision/edit/main/README.md)
+* [YoloV5](https://github.com/Arslanex/Computer-Vision/tree/main/YoloV5)
 * [YoloV8](https://github.com/Arslanex/Computer-Vision/tree/main/YoloV8)
 
 ***
