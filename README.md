@@ -12,21 +12,25 @@ This repo contains my work on different image processing libraries and computer 
 ## Table of contentes
 
 * [Create Your First CNN with OpenCV](https://github.com/Arslanex/Computer-Vision/tree/main/Basic_Understanding_of_CNN)
-
 * [work with OpenCV](https://github.com/Arslanex/Computer-Vision/tree/main/OpenCV)
-
 * [work with Mediapipe](https://github.com/Arslanex/Computer-Vision/tree/main/Mask%20RCNN)
-
 * [Mask RCNN](https://github.com/Arslanex/Computer-Vision/tree/main/Mask%20RCNN)
-
 * [YoloV3](https://github.com/Arslanex/Computer-Vision/tree/main/YoloV3)
-
 * [YoloV5](https://github.com/Arslanex/Computer-Vision/edit/main/README.md)
-
 * [YoloV8](https://github.com/Arslanex/Computer-Vision/tree/main/YoloV8)
-
 
 ***
 
-![Adsız tasarım (1)](https://user-images.githubusercontent.com/44752389/222965642-da227e0b-17f5-4e27-af7e-691578d109c5.gif)
+<p align="center">
+<a href="https://www.instagram.com/_enes.arslan_/?next=%2F">  
+<img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" height=30/>
 
+<a href="https://www.linkedin.com/in/enes-arslan-/">   
+<img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" height=30/>
+<a href="https://github.com/Arslanex">   
+<img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" height=30/ >
+<a href="https://medium.com/@enes_arslan">  
+<img src="https://img.shields.io/badge/Medium-0A0A0A?style=for-the-badge&logo=medium&logoColor=white" height=30/ >
+<a href="https://dev.to/arslanex">   
+<img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" height=30/ >
+</p>
