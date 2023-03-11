@@ -15,7 +15,7 @@ This repo contains my work on different image processing libraries and computer 
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | Basics Understanding of CNN's | ........... | [<kbd> <br> Go to Page <br> </kbd>][KBD1] |
 | Basics with OpenCV | not avaliable | [<kbd> <br> Go to Page <br> </kbd>][KBD2] |
-| Basics with Mediapipe | currently only hand tracking | [<kbd> <br> Go to Page <br> </kbd>][KBD3] |
+| Basics with Mediapipe | not avaliable | [<kbd> <br> Go to Page <br> </kbd>][KBD3] |
 | Basics with Keras | not avaliable | [<kbd> <br> Go to Page <br> </kbd>][KBD4] |
 | How to use Mask RCNN | ........... | [<kbd> <br> Go to Page <br> </kbd>][KBD5] |
 | How to use YoloV3 | ........... | [<kbd> <br> Go to Page <br> </kbd>][KBD6] |
